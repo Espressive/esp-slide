@@ -1,11 +1,19 @@
 {
   "name": "esp-slide",
   "version": "0.1.0",
-  "description": "Tool for generating markdown slides.",
+  "description": "Create fully contained presentations with markup using remark and browser-sync.",
+  "repository": "https://github.com/Espressive/esp-slide.git",
+  "homepage": "https://github.com/Espressive/esp-slide",
+  "bugs": "https://github.com/Espressive/esp-slide/issues",
+  "keywords": [
+    "remark",
+    "browser-sync",
+    "presenation"
+  ],
   "main": "index.js",
   "bin": "./index.js",
   "author": "Brian Espinosa <brian@espressive.com>",
-  "license": "MIT",
+  "license": "LICENSE.md",
   "dependencies": {
     "browser-sync": "^2.24.5",
     "chalk": "^2.4.1",
