@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Regular.eot');
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('../fonts/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto/Roboto-Regular.woff2') format('woff2'), url('../fonts/roboto/Roboto-Regular.woff') format('woff'), url('../fonts/roboto/Roboto-Regular.ttf') format('truetype'), url('../fonts/roboto/Roboto-Regular.svg#Roboto') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-RegularItalic.eot');
+  src: local('Roboto RegularItalic'), local('Roboto-RegularItalic'), url('../fonts/roboto/Roboto-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto/Roboto-RegularItalic.woff2') format('woff2'), url('../fonts/roboto/Roboto-RegularItalic.woff') format('woff'), url('../fonts/roboto/Roboto-RegularItalic.ttf') format('truetype'), url('../fonts/roboto/Roboto-RegularItalic.svg#Roboto') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Medium.eot');
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto/Roboto-Medium.woff2') format('woff2'), url('../fonts/roboto/Roboto-Medium.woff') format('woff'), url('../fonts/roboto/Roboto-Medium.ttf') format('truetype'), url('../fonts/roboto/Roboto-Medium.svg#Roboto') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Bold.eot');
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/roboto/Roboto-Bold.woff2') format('woff2'), url('../fonts/roboto/Roboto-Bold.woff') format('woff'), url('../fonts/roboto/Roboto-Bold.ttf') format('truetype'), url('../fonts/roboto/Roboto-Bold.svg#Roboto') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body { 
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+p, ul, ol {
+  line-height: 2;
+}
+
+p img {
+  max-width: 100%;
+}
+
+a {
+  color: #e59925;
+  text-decoration: none;
+}
+  
+.remark-container {
+  background-color: #111;
+}
+
+.remark-slide-scaler {
+  box-shadow: 0 0 30px #000;
+}
+
+.remark-slide-content {
+  background-color: #323f46;
+  color: #dddee0;
+}
+
+#slide-background {
+  background-size: cover;
+}
+
+#slide-background > *:not(.remark-slide-number) {
+  position: relative;
+  z-index: 1;
+}
+
+#slide-background::before {
+  content: " ";
+  position: absolute;
+  background-color: #1e262b;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  opacity: .5;
+}
+
+.remark-slide-content::after {
+  content: " ";
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  width: 12.5%;
+  height: 40px;
+  background-image: url('../img/espressive.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.remark-slide-container.remark-fading {
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+  z-index: 5;
+}
+
+.remark-slide-number {
+  font-size: .75em;
+  color: #1e262b;
+}
+
+.remark-code,
+p img {
+  border-radius: .5em;
+}
+
+.remark-code, 
+.remark-inline-code {
+  background-color: #1e262b;
+  color: #2db59e;
+  font-family: monospace; 
+}
+
+.remark-inline-code {
+  padding: .1em .25em;
+  margin: -.1em 0;
+  border-radius: .25em;
+}

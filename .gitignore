@@ -1,0 +1,10 @@
+.DS_Store
+
+# Webstorm
+.idea
+
+# VSCode
+.vscode
+
+# Dependency directories
+node_modules

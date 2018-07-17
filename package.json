@@ -1,0 +1,15 @@
+{
+  "name": "esp-slide",
+  "version": "0.1.0",
+  "description": "Tool for generating markdown slides.",
+  "main": "index.js",
+  "bin": "./index.js",
+  "author": "Brian Espinosa <brian@espressive.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.24.5",
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "remark-slide": "^0.14.0"
+  }
+}
