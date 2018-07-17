@@ -1,5 +1,5 @@
 {
-  "name": "esp-slide",
+  "name": "@espressive/esp-slide",
   "version": "0.1.0",
   "description": "Create fully contained presentations with markup using remark and browser-sync.",
   "repository": "https://github.com/Espressive/esp-slide.git",

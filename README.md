@@ -24,7 +24,7 @@ We decided to combine `remark` with `browser-sync`, a self contained tool that i
 It is recommended to install esp-slide globally so you can create a slideshow from any location in your file system.
 
 ```
-npm install esp-slide -g 
+npm install @espressive/esp-slide -g 
 ```
 
 Now you can generate a slideshow from a markdown file from any directory by running: 
