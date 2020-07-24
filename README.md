@@ -1,3 +1,7 @@
+DEPRECATED: This repository is being archived. At the time it was created, there wasn't really a good, self contained solution for this. Now [MDX Deck](https://github.com/jxnblk/mdx-deck) exists with a v4 version, is widely used, has theming options, and multiple plugins. We will likely end up packaging up an MDX Deck theme for Espressive and release that as a package to replace this.
+
+The package will be removed from NPM.
+
 # esp-slide
 
 - [esp-slide](#esp-slide)
